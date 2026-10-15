@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    body{
+      background:#dddbd6;
+      font-family: 'Tuffy', sans-serif; 
+    }
+    form{
+      width:"30%";
+      border: 2px solid #110b1f;
+      padding:12px;
+      color:blue;
+      margin: auto;
+    }
+    .lbl-full{
+      display: block;
+
+    }
+    .input-full{
+      width:100%;
+      padding: 9px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <form action="">
+    <label class="lbl-full" for="full_name">Full Name</label>
+    <input class="input-full" type="text" id="full_name" name="full_name" placeholder="Victor Smith" required>
+    <br>
+    <br>
+
+    <label class="lbl-full" for="email">Email</label>
+    <input class="input-full" type="email" id="email" name="email" placeholder="victorsmith@gmail.com" required>
+    <br>
+    <br>
+
+    <label class="lbl-full" for="password">Password</label>
+    <input class="input-full" type="password" id="password" name="password" placeholder="********" required>
+    <br>
+    <br>
+
+    <label class="lbl-full" for="phone">Phone</label>
+    <input class="input-full" type="tel" id="phone" name="phone" placeholder="+254 710 123 456" required>
+    <br>
+    <br>
+    <label class="lbl-full" for="dob">Date of Birth</label>
+    <input class="input-full" type="date" id="dob" name="dob" required min="1900-01-01" max="2008-12-31">
+    <br>
+    <br>
+
+    <label class="lbl-full" for="gender">Gender</label>
+    <input type="radio" id="male" name="gender" value="male" checked>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" checked>
+    <label for="female">Female</label>
+    <br>
+    <br>
+    <p>Select your favorite sports:</p>
+    
+    <input type="checkbox" name="Tennis" id="tennis" value="Tennis">
+    <label for="tennis">Tennis</label>
+    <br>
+    <input type="checkbox" name="Football" id="football" value="Football">
+    <label for="football">Football</label>
+    <br>
+    <input type="checkbox" name="Basketball" id="basketball" value="Basketball">
+    <label for="basketball">Basketball</label>
+    <br>
+    <br>
+    <label class="lbl-full" for="county">County</label>
+    <select class="input-full" name="county" id="county" required>
+      <option value="Mombasa">Mombasa</option>
+      <option value="Kwale">Kwale</option>
+      <option value="Kilifi">Kilifi</option>
+      <option value="Tana River">Tana River</option>
+      <option value="Lamu">Lamu</option> 
+    </select> 
+    <br>
+    <br>
+
+    <button class="lbl-full" type="submit">Submit</button>
+
+
+  </form>
+</body>
+</html>

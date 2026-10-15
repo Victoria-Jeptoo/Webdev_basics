@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divs</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+   <style>
+    /* Target Elements */
+    p{
+      color:#0e37b1db;
+      background-color: white;
+      font-size: 14px;
+        font-family: "Quicksand", sans-serif;
+    }
+    h2{
+      color: black;
+      font-size: 30px;
+      font-family: "Libre Caslon Condensed", serif;
+    }
+    body{
+      background-color: white;
+    }
+    div{
+      background:#c83333;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      /* padding: 12px 15px; top+bottom, left+right */
+      /* padding: 12px 15px 12px 15px; clockwise: t+r+b+l */
+      margin:16px;  
+      border: 2px solid #270374;
+      width:80%;
+      /* height: 250px; */
+    }
+    #xyz{
+      color: white;
+      background-color: #d8bebe;
+      font-size: 14px;
+  
+    }
+    #abc{
+      border: 2px solid #270374;
+    }
+   </style>
+</head>
+<body>
+   <div>
+    <!-- INLINE CSS- Inside the code -->
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <p id="abc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque et ab fuga voluptatem deleniti expedita ipsam doloremque magnam alias repellat aperiam, dolorem ex dicta iusto blanditiis ducimus aliquid quia reprehenderit.
+    Impedit laboriosam debitis, unde quisquam enim esse soluta vero dolorum odit at quia nesciunt perspiciatis aspernatur! Reprehenderit nemo autem ducimus, numquam, iste explicabo non voluptate tempore iusto soluta facere temporibus?</p>
+   </div>
+
+   <div>
+    <div>
+     <p id="xyz">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, quibusdam.</p>
+    </div>
+    <div>
+      <p id="xyz">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, natus?</p>
+    </div>
+    <div>
+      <p id="xyz">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, cupiditate!</p>
+    </div>
+   </div>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, sint?
+   Quam quibusdam, ratione facere eveniet at laboriosam! Illo, voluptatibus beatae.
+   Veritatis labore modi ullam alias ut expedita explicabo, ad nulla.</p>
+</body>
+</html>
