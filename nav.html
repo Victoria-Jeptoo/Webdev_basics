@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation</title>
+ <style>
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+    body{
+      font-family: 'Libre Baskerville', serif;
+      padding:0;
+      margin:0;
+
+    }
+    .nav{
+      display:flex;
+      justify-content:center;
+      background:rgb(217, 207, 207);
+      border-bottom: 2px solid #0f0e0e;
+    }
+    .nav-items{
+      width: 70%;
+      display:flex;
+      justify-content:space-between;
+      /* background-color: #4319ba; */
+      align-items:center;/*align the items vertically*/
+    }
+    .nav-items ul{
+      display:flex;
+      list-style:none;/*remove the bullet points*/
+    }
+    .nav-items li{
+      margin-right: 20px;
+      margin-left: 10px;
+    }
+    .nav-items a{
+      text-decoration:none;
+      color:#080a13;
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .nav-items a:hover{
+      color:#3908c0;
+      text-decoration:underline;
+    }
+    nav-items img{
+      width: 50px;
+      height: 50px;
+    }
+ </style>
+ 
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-items">
+      <img src="images/icons8-home-48.png" alt="Company Logo">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+  </nav>
+  <!-- Footer -->
+   <footer>
+
+   </footer>
+</body>
+</html>
